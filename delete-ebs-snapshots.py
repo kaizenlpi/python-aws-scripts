@@ -7,7 +7,7 @@ import logging
 from openpyxl import load_workbook
 AWS_REGION = "ap-southeast-2"
 ec2 = boto3.client('ec2', region_name = AWS_REGION)
-wb = load_workbook("CREPCE_GovCloud_Snapshots_040824-1.xlsx")  
+wb = load_workbook("WORKBOOK.xlsx")  
 ws = wb['Sheet1']
 column = ws['D'][1:3089]  
 column_list = [column[x].value for x in range(len(column))]
