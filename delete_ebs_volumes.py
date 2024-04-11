@@ -11,6 +11,8 @@ python3 delete-ebs-vol.py
  'vol-0079ea32b16aeede1 vol-06097f05fbcab73db vol-0b80038092795093a ']
 
 '''
+# Purpose: Cost Optimization
+
 import boto3 
 import pprint
 from openpyxl import load_workbook
