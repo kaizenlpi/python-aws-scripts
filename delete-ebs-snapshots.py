@@ -1,5 +1,6 @@
 # Note: except captures the 2c2.delete(snapshot) command STDERR in the variable "e". It prints the "e" variable, then continues iterating through the list of values. 
 # list of values came from excel spreadsheet see line 10
+# Purpose: Cost Optimization
 
 import boto3 
 import pprint
